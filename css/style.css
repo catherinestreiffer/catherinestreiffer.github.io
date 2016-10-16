@@ -1,0 +1,100 @@
+/***** NAVBAR *****/
+.navbar-default {
+  border-radius: 0;
+  background: linear-gradient (to right, #ffe438, #01036d); /*not working*/
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: #01036d; /*working*/ /*want this to be white when background is working*/
+  font-size: 20px; /*working*/
+  font-weight: bold; /*working*/
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #ffe438; /*working (turns navbar text background #ffe438 on hover)*/
+    color: black; /*working (turns navbar text to black on hover)*/
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: blue; /*working. I want to turn this to white when I get the background to work*/
+  font-size: 16px; /* working*/
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: red; /*working. Thi is the menu and hamburger color should be white when background works*/
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #ffe438; /*working. This is the background color for the menu and hamburger on hover*/
+  color: black; /* working. menu text turns black on hover*/
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: white; /*working*/
+  border-color: #01036d; /*working*/
+  border-width: 2px; /*working*/
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #ffe438; /*working*/
+
+.portfolio-title {
+  font-weight: bold; /* this isn't doing anything*/
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+
+.resume h3 {
+  font-weight: bold; /*IDK*/
+}
+
+hr {
+  border-color: purple; /*IDK. I don't see anything purple*/
+  border-width: 2px; /*IDK*/
+}
+
+p {
+  font-size: 20px; /*not working or not used*/
+}
+
+a {
+  color: purple; /*not working or not used*/
+}
+
+a:hover {
+  color: pink; /*not working or not used*/
+  background-color: green; /*not working or not used*/
+}
+
+.jumbotron {
+  text-align: right; /*not working or not used*/
+  background-color: purple; /*not working or not used*/
+  color: pink; /*not working or not used*/
+  padding: 2%; /*IDK*/
+  font-size: 72px;
+}
+
+.jumbotron h2 {
+  font-size: 36px; /*not working*/
+  font-weight: bold; /*not working*/
+}
+
+body {
+  padding-top: 50px; /*not working*/
+  font-family: "Raleway", Raleway, sans-serif; /*not working*/
+}
