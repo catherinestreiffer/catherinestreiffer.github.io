@@ -22,13 +22,13 @@
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-  color: blue; /*working. I want to turn this to white when I get the background to work*/
+  color: #01036d; /*working. I want to turn this to white when I get the background to work*/
   font-size: 16px; /* working*/
 }
 
 /* Navbar collapsed styles */
 .navbar-header .navbar-toggle {
-  color: red; /*working. Thi is the menu and hamburger color should be white when background works*/
+  color: #01036d; /*working. Thi is the menu and hamburger color should be white when background works*/
 }
 
 .navbar-header .navbar-toggle:hover,
