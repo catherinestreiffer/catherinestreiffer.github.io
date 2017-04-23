@@ -1,0 +1,67 @@
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+#map {
+    height: 550px;
+    width: 75%;
+    display: inline-block;
+}
+
+#sidebar {
+    width: 18%;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    line-height: 18px;
+}
+.sequence-control-container {
+    width: 275px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 200px;
+}
+.range-slider {
+    width: 50%;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
+
+.legend-control-container {
+    width: 210px;
+    height: 125px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    padding-top: 5px;
+    line-height: 25px;
+    text-align: center;
+    border: solid gray 1px;
+}
+.circle-legend-region,.circle-legend-svg {
+  width:70px;
+}
+.circle-legend-region{
+  height:100px;
+  display:inline;
+  float: left
+  }
+.circle-legend-svg {
+  height:60px;
+}
+#choropleth-legend-image{
+  width: 200px;
+  height: 110px;
+}
